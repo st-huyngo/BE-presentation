@@ -1,0 +1,22 @@
+{
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "user_id",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "AttributeName": "user_id",
+      "KeyType": "HASH"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 25,
+    "WriteCapacityUnits": 25
+  },
+  "TableName": "Users",
+  "StreamSpecification": {
+    "StreamEnabled": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Users": [
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": { "S": "1" },
+          "user_name": { "S": "Huy Ngo" },
+          "age": { "N": "22" },
+          "gender": {
+            "S": "Male"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": { "S": "2" },
+          "user_name": { "S": "Chinh Le" },
+          "age": { "N": "22" },
+          "gender": {
+            "S": "Male"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": { "S": "3" },
+          "user_name": { "S": "Thach Phan" },
+          "age": { "N": "22" },
+          "gender": {
+            "S": "Male"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "user_id": { "S": "4" },
+          "user_name": { "S": "Y Doan" },
+          "age": { "N": "20" },
+          "gender": {
+            "S": "Male"
+          }
+        }
+      }
+    }
+  ]
+}

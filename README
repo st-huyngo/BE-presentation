@@ -1,0 +1,2 @@
+# aws dynamodb create-table --cli-input-json file://src/database/tables/users.json --endpoint http://localhost:9000 --region us-east-1
+# aws dynamodb batch-write-item --request-items file://src/database/seeds/users.json --endpoint http://localhost:9000 --region us-east-1
